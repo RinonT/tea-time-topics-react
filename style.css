@@ -101,7 +101,8 @@ svg {
 }
 
 .archive_button,
-.vote_buttons_container button 
+.vote_buttons_container button,
+.delete_button
  {
     border: transparent;
     background: transparent;
