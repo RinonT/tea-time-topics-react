@@ -1,0 +1,109 @@
+
+body {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f4ef;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal; 
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: #020826;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+p {
+    margin: 0; 
+    color: #716040;
+}
+
+input {
+    outline: none;
+    border-radius: 4px;
+    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+    border-color: rgba(0, 183, 255, 0.4);
+}
+
+.topic_input {
+    width: 80%;
+    margin-right: 16px;
+}
+
+button {
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 24px;
+    color: white;
+}
+
+.submit_button {
+    background-color: #8c7851;
+    margin-right: 16px;
+} 
+.add_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list,
+.add_form {
+    background-color: white;
+    padding: 32px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+ 
+.topic_container,
+.vote_buttons_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.topic_container {
+    margin-bottom: 32px;
+}
+
+.vote_buttons_container {
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.archive_button {
+    border: transparent;
+    background: transparent;
+
+}
+.archive_button svg{
+    margin-bottom: 32px;
+}

@@ -68,3 +68,17 @@ Here's a list of details that I'll check, for grading your project. Use it to gu
 Fork this repo and clone your fork. You have until 16h30 to complete the project. Stop coding a bit earlier to take some time documenting your project in the readme.
 
 Good luck team 🔥💪 and happy coding 👍
+
+## The structure of my files
+- Creating the html in the html file
+- The `script.js` file is the entry point for all js-files
+- The `addTopic.js` file is used particularly for the adding the list
+- The `displayList.js` is to display the list in the dom
+
+## Structure of my project
+- I fetched the data from the server
+- I have a function called `GenerateHtml` to generate the html for this project
+- The function `displayTopic` displays the list of topics in the document
+- The `addTopic` function enables the users to add a new topic
+## My experience
+## What I have learned
